@@ -89,5 +89,25 @@
     .bottom{
         background-color: #36308d;
         height: 50px;
+        .links{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0px 50px;
+            padding: 10px;
+
+            .link-item{
+                text-decoration: none;
+
+                span{
+                    font-weight: 500;
+                    color: white;
+    
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+        }
     }
 }
