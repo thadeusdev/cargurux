@@ -1,7 +1,7 @@
 export const homeCards = [
     {
         id: 1,
-        img: "https://imgd.aeplcdn.com/664x374/n/cw/ec/137979/lx-exterior-right-front-three-quarter.jpeg?isig=0&q=75",
+        img: "https://cdn.shopify.com/s/files/1/0558/1363/6144/products/PHOTO-2022-10-13-17-06-07-removebg.png?v=1667041431",
         desc: 'Lets help you pick'
     },
     {
@@ -11,17 +11,17 @@ export const homeCards = [
     },
     {
         id: 3,
-        img: "https://imgd.aeplcdn.com/0x0/n/cw/ec/28191/ls-exterior-right-front-three-quarter.jpeg?isig=0",
+        img: "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/1eea4b99-e9b7-438a-a4c5-b996989f8ff7/6131ef34-38b4-4acb-8e1a-621dd32a1241.png",
         desc: 'Home if high end cars'
     },
     {
         id: 4,
-        img: "https://imgd.aeplcdn.com/1280x720/ec/8D/e4/9779/img/m/Bugatti-Veyron-Right-Front-Three-Quarter-52786_ol.jpg?t=111238500&t=111238500&q=75",
+        img: "https://www.mbusa.com/content/dam/mb-nafta/us/homepage-redesign/2024-FVP-CLA-COUPE.jpg",
         desc: 'premier car mart'
     },
     {
         id: 5,
-        img: "https://nypost.com/wp-content/uploads/sites/2/2022/08/georgiaportogallo-61-copy.jpg?quality=75&strip=all",
+        img: "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/Land-Rover-Range-Rover-Sport.png",
         desc: 'the best car deals'
     },
 ]
