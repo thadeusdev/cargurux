@@ -86,9 +86,16 @@
             }
         }
     }
+
+    .sticky{
+        position: sticky;
+        bottom: 0;
+    }
+
     .bottom{
         background-color: #36308d;
         height: 50px;
+
         .links{
             display: flex;
             align-items: center;
