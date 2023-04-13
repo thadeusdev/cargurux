@@ -1,0 +1,45 @@
+.intro{
+    margin: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px dashed red;
+    padding: 20px;
+
+    .left{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+
+        h3{
+            color: gray;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+
+        h2{
+            text-transform: capitalize;
+        }
+
+        p{}
+
+        .more{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            color: red;
+        }
+
+    }
+
+    .right{
+        img{
+            height: 250px;
+            object-fit: cover;
+        }
+    }
+}
