@@ -9,8 +9,121 @@
         height: calc(350px - 50px);
         display: flex;
         justify-content: space-between;
-        margin: 20px 50px;
+        margin: 40px 50px;
         color: white;
+        gap: 10px;
+
+        .subscribe{
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h2{
+                text-transform: capitalize;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+
+            form{
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                input{
+                    height: 35px;
+                    border: none;
+                    border-radius: 5px;
+
+                    &:focus{
+                        padding: 2px;
+                        font-size: 14px;
+                    }
+                }
+
+                button{
+                    height: 35px;
+                    width: 100px;
+                    background-color: rgba(255, 0, 0, 0.664);
+                    border: none;
+                    color: white;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    border-radius: 5px;
+
+                    &:hover{
+                        background-color: red;
+                    }
+                }
+            }
+        }
+
+        .links{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h2{
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .link{
+                text-decoration: none;
+                color: white;
+                text-transform: capitalize;
+
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+
+        .support{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h2{
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .link{
+                text-decoration: none;
+                color: white;
+                text-transform: capitalize;
+
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+
+        .about{
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h2{
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            span{
+                margin-top: 30px;
+            }
+        }
     }
 
     .bottom{
