@@ -83,3 +83,78 @@ export const CarMakes = [
         sum: 10
     },
 ]
+
+export const weeksCars = [
+    {
+        id: 1,
+        img: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/2016_Toyota_HiLux_Invincible_D-4D_4WD_2.4_Front.jpg',
+        desc: '2016 Toyota Hilux',
+        price: '5,900,000',
+        engine: '2,400',
+        transmission: 'auto',
+        fuel: 'diesel'
+    },
+    {
+        id: 2,
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Toyota_HARRIER_G_4WD.jpg/1024px-Toyota_HARRIER_G_4WD.jpg',
+        desc: '2014 Toyota Harrier',
+        price: '3,200,000',
+        engine: '2,000',
+        transmission: 'auto',
+        fuel: 'petrol'
+    },
+    {
+        id: 3,
+        img: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/2018_Subaru_Impreza_%28GT7%29_2.0i-S_hatchback_%282018-09-28%29_01.jpg',
+        desc: '2014 subaru impreza',
+        price: '1,300,000',
+        engine: '1,600',
+        transmission: 'auto',
+        fuel: 'petrol'
+    },
+    {
+        id: 4,
+        img: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/2018_Toyota_Land_Cruiser_Prado_%28GDJ150R%29_GXL_wagon_%282018-08-06%29_01.jpg',
+        desc: '2018 toyota land cruiser prado',
+        price: '6,900,000',
+        engine: '2,800',
+        transmission: 'auto',
+        fuel: 'diesel'
+    },
+    {
+        id: 5,
+        img: 'https://upload.wikimedia.org/wikipedia/commons/3/36/Mitsubishi_V98_Pajero_Long_Body_Super_Exceed_3200_DI-D.JPG',
+        desc: '2018 mitsubushi pajero',
+        price: '5,900,000',
+        engine: '3,200',
+        transmission: 'auto',
+        fuel: 'diesel'
+    },
+    {
+        id: 6,
+        img: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/2021_Toyota_Land_Cruiser_300_3.4_ZX_%28Colombia%29_front_view_04.png',
+        desc: '2021 land cruiser',
+        price: '6,100,000',
+        engine: '2,800',
+        transmission: 'auto',
+        fuel: 'diesel'
+    },
+    {
+        id: 7,
+        img: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/2021_Toyota_Land_Cruiser_300_3.4_ZX_%28Colombia%29_front_view_04.png',
+        desc: '2018 land cruiser',
+        price: '6,800,000',
+        engine: '2,800',
+        transmission: 'auto',
+        fuel: 'diesel'
+    },
+    {
+        id: 8,
+        img: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/2021_Toyota_Land_Cruiser_300_3.4_ZX_%28Colombia%29_front_view_04.png',
+        desc: '2022 land cruiser',
+        price: '13,500,000',
+        engine: '4,500',
+        transmission: 'auto',
+        fuel: 'diesel'
+    },
+]
