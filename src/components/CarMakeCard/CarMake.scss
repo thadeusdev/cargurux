@@ -1,0 +1,21 @@
+.carMake{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px -1px rgba(0,0,0,0.1);
+    margin: 10px;
+
+    img{
+        height: 40px;
+        width: auto;
+    }
+
+    span{
+        color: red;
+    }
+}

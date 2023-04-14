@@ -25,3 +25,61 @@ export const homeCards = [
         desc: 'the best car deals'
     },
 ]
+
+export const CarMakes = [
+    {
+        id: 1,
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/LandRover.svg/1200px-LandRover.svg.png',
+        sum: 10
+    },
+    {
+        id: 2,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/2048px-Mercedes-Logo.svg.png',
+        sum: 10
+    },
+    {
+        id: 3,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/2048px-BMW.svg.png',
+        sum: 10
+    },
+    {
+        id: 4,
+        logo: 'https://upload.wikimedia.org/wikipedia/sco/thumb/f/fe/Subaru_logo_and_wordmark.svg/1280px-Subaru_logo_and_wordmark.svg.png',
+        sum: 10
+    },
+    {
+        id: 5,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mitsubishi_logo.svg/2381px-Mitsubishi_logo.svg.png',
+        sum: 10
+    },
+    {
+        id: 6,
+        logo: 'https://upload.wikimedia.org/wikipedia/fr/1/15/Audi_logo.svg',
+        sum: 10
+    },
+    {
+        id: 7,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Jeep_logo.svg',
+        sum: 10
+    },
+    {
+        id: 8,
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Lexus_division_emblem.svg/2560px-Lexus_division_emblem.svg.png',
+        sum: 10
+    },
+    {
+        id: 9,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Honda.svg/2560px-Honda.svg.png',
+        sum: 10
+    },
+    {
+        id: 10,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/2048px-Volkswagen_logo_2019.svg.png',
+        sum: 10
+    },
+    {
+        id: 10,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Toyota_EU.svg/800px-Toyota_EU.svg.png',
+        sum: 10
+    },
+]
