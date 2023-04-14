@@ -9,7 +9,7 @@ const Intro = () => {
             <h3>welcome to car guruz</h3>
             <h2>search less. live more.</h2>
             <p>
-            At Carsoko.co.ke what matters to us is making your car search and buying experience as simple as possible, so you can find the right car quickly and get on with making it yours,
+            At Carguruz.co.ke what matters to us is making your car search and buying experience as simple as possible, so you can find the right car quickly and get on with making it yours,
             </p>
             <div className="more">
                 <span>Find more</span>
