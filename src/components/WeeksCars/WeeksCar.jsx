@@ -40,8 +40,12 @@ const WeeksCar = () => {
                             <button>order now</button>
                         </div>
                         <div className="right">
-                            <WhatsAppIcon className='whatsapp'/>
-                            <PhoneIcon className='phone'/>
+                            <div className="whatsapp">
+                                <WhatsAppIcon/>
+                            </div>                            
+                            <div className="phone">
+                                <PhoneIcon/>
+                            </div>
                         </div>
                     </div>                   
                 </div>

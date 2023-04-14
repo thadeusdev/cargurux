@@ -59,7 +59,7 @@
 
         .bottom-item{
             box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
-            height: 320px;
+            height: 330px;
             width: 300px;
             margin-bottom: 10px;
             display: flex;
@@ -94,6 +94,41 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+
+                .left{
+                    button{
+                        padding: 5px;
+                        border: 1px solid red;
+                        border-radius: 5px;
+                        background: none;
+                        text-transform: capitalize;
+
+                        &:hover{
+                            background: lightgray;
+                        }
+                    }
+                }
+
+                .right{
+                    display: flex;
+                    gap: 10px;
+
+                    .whatsapp{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: #25d366;
+                        color: white;
+                    }
+
+                    .phone{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: red;
+                        color: white;
+                    }
+                }
             }
         }
     }
