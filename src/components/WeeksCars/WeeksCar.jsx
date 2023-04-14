@@ -41,11 +41,13 @@ const WeeksCar = () => {
                         </div>
                         <div className="right">
                             <div className="whatsapp">
-                                <WhatsAppIcon/>
-                            </div>                            
+                                {/* <WhatsAppIcon/> */}
+                            </div> 
+                            <WhatsAppIcon className='whatsapp-icon'/>                           
                             <div className="phone">
-                                <PhoneIcon/>
+                                {/* <PhoneIcon/> */}
                             </div>
+                            <PhoneIcon className='phone-icon'/>
                         </div>
                     </div>                   
                 </div>
