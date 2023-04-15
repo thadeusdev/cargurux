@@ -24,7 +24,9 @@ const WeeksCar = () => {
         <div className="bottom">
             {weeksCars.map(car => (
                 <div className='bottom-item'>
-                    <img src={car.img} alt="" />
+                    <div className="image-wrapper">
+                        <img src={car.img} alt="" />
+                    </div>                    
                     <span className="desc" style={{fontWeight: 600, padding: '5px'}}>{car.desc}</span>
                     <span className="desc" style={{color: 'red', fontWeight: 600, marginBottom: '10px', padding: '5px'}}>Ksh {car.price}</span>
                     <div className="mileage">
