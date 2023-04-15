@@ -166,8 +166,7 @@
         .stock{
             display: flex;
             flex-wrap: wrap;
-            justify-content: start;
-            gap: 20px;
+            justify-content: space-between;
 
             .image-wrapper{
                 box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
@@ -175,6 +174,9 @@
                 border-radius: 5px;
                 width: 350px;
                 height: 400;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
 
                 img{
                     width: 100%;
