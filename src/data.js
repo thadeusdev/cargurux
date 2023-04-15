@@ -158,3 +158,54 @@ export const weeksCars = [
         fuel: 'diesel'
     },
 ]
+
+export const accessories = [
+    {
+        id: 1,
+        img: 'https://www.autoventshade.com/cache/images_product-images_AVS760x500Windflector1_w760_h500_cr_q75.jpg',
+        title: 'Sunroof Wind Deflector',
+        desc: 'Makes driving with the sun roof open even more pleasurable by reducing the effects of wind noise and turbulence within the cabin.'
+    },
+    {
+        id: 2,
+        img: 'https://www.autoventshade.com/cache/images_product-images_LightshieldPro_Lightshieldpro_760x500_w365_h200_cr_q80.jpg',
+        title: 'Hood Deflector',
+        desc: 'Ideal for bad weather and country road driving. The deflector fits along the leading edge of the hood to divert airborne water, mud and stones away from the windshield.'
+    },
+    {
+        id: 3,
+        img: 'https://www.carsoko.co.ke/frontend-assets/img/Wind-deflectors.jpg',
+        title: 'Sunroof Wind Deflector',
+        desc: 'The aerodynamic shape minimizes in-cabin wind noise and turbulence when driving with the windows open. Available as a front and rear set or for the front only.'
+    },
+    {
+        id: 4,
+        img: 'https://www.carsoko.co.ke/frontend-assets/img/Door-handle-protection-film.jpg',
+        title: 'Door Handle Protection Film',
+        desc: 'Virtually invisible, yet providing tough protection against scratching by gloves, rings and keys around the door handle.'
+    },
+    {
+        id: 5,
+        img: 'https://www.carsoko.co.ke/frontend-assets/img/Touch-up-paints.jpg',
+        title: 'Touch Up Paints',
+        desc: 'A full range of Land Cruiser colors available in easy to use sticks and aerosols for repairing minor paintwork blemishes.'
+    },
+    {
+        id: 6,
+        img: 'https://www.carsoko.co.ke/frontend-assets/img/Cool-box.jpg',
+        title: 'Cool Box',
+        desc: 'Ideal for long journeys, picnics and days out. Plugs into your car’s 12V socket to keep refreshments either hot or chilled.'
+    },
+    {
+        id: 7,
+        img: 'https://www.carsoko.co.ke/frontend-assets/img/Alloy-wheel-ProTect.jpg',
+        title: 'Alloy Wheel ProTect',
+        desc: 'ProTect’s silicium-based coating shields alloy wheel surfaces against marks and grime caused by brake dust, road conditions and the weather.'
+    },
+    {
+        id: 8,
+        img: 'https://www.carsoko.co.ke/frontend-assets/img/Velour-floor-mats.jpg',
+        title: 'Velour Floor Mats',
+        desc: 'Soft textile on a strong backing for great looks, comfort and durable carpet protection. Safety fixings hold the driver’s mat firmly in place. In beige or blue grey and for 5 and 7 seat Land Cruisers.'
+    },
+]

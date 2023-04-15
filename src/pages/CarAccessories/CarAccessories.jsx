@@ -1,8 +1,10 @@
 import React from 'react'
 import './CarAccessories.scss'
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
+import {accessories} from '../../data'
 
 const CarAccessories = () => {
+ 
   return (
     <div className='carAccessories'>
       <div className="top">
@@ -30,28 +32,22 @@ const CarAccessories = () => {
               <tr>
                 <th>sunday</th>
               </tr>
-              <hr />
               <tr>
                 <th>monday</th>
               </tr>
-              <hr />
               <tr>
                 <th>tuesday</th>
               </tr>
-              <hr />
               <tr>
                 <th>wednesday</th>
               </tr>
-              <hr />
               <tr>
                 <th>thursday</th>
               </tr>
-              <hr />
               <tr>
                 <th>friday</th>
               </tr>
-              <hr />
-              <tr>
+              <tr style={{borderBottom: 'none'}}>
                 <th>saturday</th>
               </tr>
             </thead>
@@ -59,28 +55,22 @@ const CarAccessories = () => {
               <tr>
                 <td>9:00 am - 6:00 pm</td>
               </tr>
-              <hr />
               <tr>
                 <td>8:00 am - 6:00 pm</td>
               </tr>
-              <hr />
               <tr>
                 <td>8:00 am - 6:00 pm</td>
               </tr>
-              <hr />
               <tr>
                 <td>8:00 am - 6:00 pm</td>
               </tr>
-              <hr />
               <tr>
                 <td>8:00 am - 6:00 pm</td>
               </tr>
-              <hr />
               <tr>
                 <td>8:00 am - 6:00 pm</td>
               </tr>
-              <hr />
-              <tr>
+              <tr style={{borderBottom: 'none'}}>
                 <td>9:00 am - 6:00 pm</td>
               </tr>
             </tbody>
@@ -88,7 +78,21 @@ const CarAccessories = () => {
           <button>+254 759 272 383</button>
         </div>
       </div>
-      <div className="bottom">bottom</div>
+      <div className="bottom">
+        <div className="header">
+          <div className="highlight"></div>
+          <h2>we stock</h2>
+        </div>
+        <div className="stock">
+          {accessories.map(item => (
+          <div className="image-wrapper" key={item.id}>
+            <img src={item.img} alt="" />
+            <h3>{item.title}</h3>
+            <span>{item.desc}</span>
+          </div>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }
