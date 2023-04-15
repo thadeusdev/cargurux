@@ -12,6 +12,7 @@ import Blogs from "./pages/Blogs/Blogs";
 import Home from "./pages/Home/Home";
 import Insurance from "./pages/Insurance/Insurance";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import Dashboard from "./pages/Dashboard/Dashboard";
 
 const Layout = () => {
   return (
@@ -19,6 +20,14 @@ const Layout = () => {
       <Navbar />
       <Outlet />
       <Footer />
+    </div>
+  )
+}
+
+const Admin = () => {
+  return (
+    <div>
+      <Outlet />
     </div>
   )
 }
@@ -56,6 +65,44 @@ const router = createBrowserRouter([
         path: "/about-us",
         element: <AboutUs />,
       },
+      // {
+      //   path: "/admin",
+      //   element: <AboutUs />,
+      // },
+    ]
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
+    children: [ 
+      {
+        path: "/admin",
+        element: <Dashboard/>,
+      },     
+      // {
+      //   path: "/cars-for-sale",
+      //   element: <CarForSale />,
+      // },
+      // {
+      //   path: "/car-accessories",
+      //   element: <CarAccessories />,
+      // },
+      // {
+      //   path: "/car-tracking",
+      //   element: <CarTracking />,
+      // },
+      // {
+      //   path: "/blog-listing",
+      //   element: <Blogs />,
+      // },
+      // {
+      //   path: "/vehicle-insurance",
+      //   element: <Insurance />,
+      // },
+      // {
+      //   path: "/about-us",
+      //   element: <AboutUs />,
+      // },
     ]
   },
 ]);

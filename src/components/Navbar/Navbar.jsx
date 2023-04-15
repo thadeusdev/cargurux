@@ -26,11 +26,21 @@ const Navbar = () => {
             <span>+254759272383</span>
           </div>
           <div className="social">
-            <FacebookIcon className='facebook' /> 
-            <TwitterIcon className='twitter' /> 
-            <InstagramIcon className='instagram' />   
-            <LinkedInIcon className='linkedin' /> 
-            <AccountCircleIcon className='account' />      
+            <Link className='link' to='/'>
+              <FacebookIcon className='facebook' /> 
+            </Link> 
+            <Link className='link' to='/'>
+              <TwitterIcon className='twitter' />
+            </Link>
+            <Link className='link' to='/'>
+              <InstagramIcon className='instagram' />
+            </Link>
+            <Link className='link' to='/'>
+              <LinkedInIcon className='linkedin' />
+            </Link> 
+            <Link className='link' to='/admin'>
+              <AccountCircleIcon className='account' /> 
+            </Link>      
           </div>
         </div>
       </div>

@@ -62,29 +62,34 @@
                 justify-content: space-between;
                 gap: 20px;
 
-                .facebook{
-                    &:hover{
-                        color: #4267b2;
+                .link{
+                    text-decoration: none;
+                    color: black;
+
+                    .facebook{
+                        &:hover{
+                            color: #4267b2;
+                        }
                     }
-                }
-                .twitter{
-                    &:hover{
-                        color: #1da1f2;
+                    .twitter{
+                        &:hover{
+                            color: #1da1f2;
+                        }
                     }
-                }
-                .instagram{
-                    &:hover{
-                        color: #d62976;
+                    .instagram{
+                        &:hover{
+                            color: #d62976;
+                        }
                     }
-                }
-                .linkedin{
-                    &:hover{
-                        color: #0072b1;
+                    .linkedin{
+                        &:hover{
+                            color: #0072b1;
+                        }
                     }
-                }
-                .account{
-                    &:hover{
-                        color: red;
+                    .account{
+                        &:hover{
+                            color: red;
+                        }
                     }
                 }
             }
