@@ -3,7 +3,9 @@ import './Insurance.scss'
 
 const Insurance = () => {
   return (
-    <div>Insurance</div>
+    <div className='insurance'>
+      <div className="left">left</div>
+    </div>
   )
 }
 
