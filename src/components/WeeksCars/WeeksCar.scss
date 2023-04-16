@@ -183,6 +183,7 @@
 @media only screen and (max-width:768px){
     .weeksCar{
         margin: 10px 10px;
+        overflow-x: hidden;
 
         .top{
             display: flex;
