@@ -209,3 +209,18 @@ export const accessories = [
         desc: 'Soft textile on a strong backing for great looks, comfort and durable carpet protection. Safety fixings hold the driver’s mat firmly in place. In beige or blue grey and for 5 and 7 seat Land Cruisers.'
     },
 ]
+
+export const CarTracking = [
+    {
+        id: 1,
+        img: 'require('
+    },
+    {
+        id: 2,
+        img: ''
+    },
+    {
+        id: 3,
+        img: ''
+    },
+]
