@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Navbar.scss'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -7,9 +7,16 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import PhoneIcon from '@mui/icons-material/Phone';
+import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  const navRef = useRef();
+
+  const showNavBar = () => {
+    navRef.current.classList.toggle('responsiveNav');
+  }
+
   return (
     <div className='navbar'>
       <div className="top">
@@ -45,7 +52,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='bottom'>
-        <div className="links">
+        <div className="links" ref={navRef}>
           <Link className='link-item' to='/'>
             <span>HOME</span>
           </Link>
@@ -67,7 +74,13 @@ const Navbar = () => {
           <Link className='link-item' to='/about-us'>
             <span>ABOUT US</span>
           </Link>
+          <button className='nav-btn nav-close-btn' onClick={showNavBar}>
+            <FaTimes/>
+          </button>
         </div>
+        <button className='nav-btn' onClick={showNavBar}>
+          <FaBars/>
+        </button>
       </div>
     </div>
   )

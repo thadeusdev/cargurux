@@ -124,6 +124,30 @@
                     }
                 }
             }
+
+            .nav-close-btn{
+                padding: 5px;
+                cursor: pointer;
+                background: transparent;
+                border: none;
+                outline: none;
+                color: white;
+                visibility: hidden;
+                opacity: 0;
+                font-size: 1.8rem;
+            }
+        }
+
+        .nav-btn{
+            padding: 5px;
+            cursor: pointer;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            visibility: hidden;
+            opacity: 0;
+            font-size: 1.8rem;
         }
     }
 }
@@ -158,6 +182,47 @@
                 }
             }
         }
-        .bottom{}
+        .bottom{
+
+            .links{
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1.5rem;
+                background-color: #36308d;
+                transition: 1s;
+                transform: translateY(-105vh);
+
+                .link-item{
+
+                    span{
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .nav-close-btn{
+                    visibility: visible;
+                    opacity: 1;
+                    position: absolute;
+                }
+            }
+
+            .nav-btn{
+                visibility: visible;
+                opacity: 1;
+                top: 2rem;
+                right: 5rem;
+            }
+
+            .responsiveNav{
+                transform: none;
+            }
+        }
     }
 }
