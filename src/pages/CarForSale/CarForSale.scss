@@ -136,3 +136,28 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px){
+    .carForSale{
+        margin: 10px 10px;
+        overflow-x: hidden;
+
+        .top{}
+
+        .bottom{
+
+            .bottom-item{
+                background-color: red;
+                width: 100vw;
+                height: auto;
+
+                .image-wrapper{
+
+                    img{
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
