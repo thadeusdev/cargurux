@@ -1,4 +1,174 @@
 .carTracking{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     margin: 10px 50px;
-    border-radius: 10px;
+    .top{}
+    .bottom{
+        display: flex;
+        gap: 10px;
+
+        .left{
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .introduction{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .header{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .highlight{
+                        background-color: red;
+                        height: 25px;
+                        width: 5px;
+                    }
+
+                    h2{
+                        text-transform: uppercase;
+                        font-weight: 300;
+
+                        span{
+                            color: red;
+                        }
+                    }
+                }
+
+                p{
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    font-weight: 300;
+                }
+            }
+
+            .services{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 10px;
+
+                .header{
+                    u{
+                        font-weight: 500;
+                        font-size: 17px;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .service{
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .service-item{
+                        width: 50%;
+
+                        h2{
+                            font-size: 16px;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                            margin-bottom: 10px;
+                        }
+
+                        ul{
+                            margin-left: 20px;
+                            font-size: 13px;
+                            text-transform: capitalize;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+        .right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .header{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .highlight{
+                    background-color: red;
+                    height: 25px;
+                    width: 5px;
+                }
+
+                h2{
+                    text-transform: capitalize;
+                    font-weight: 300;
+                    span{
+                        color: red;
+                    }
+                }
+            }
+
+            table{
+                box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                thead{
+                    flex: 1;
+
+                    tr{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        border-bottom: 1px solid lightgray;
+                        
+                        th{
+                            text-transform: capitalize;
+                            padding: 10px;
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+                    }
+                    hr{}
+                }
+                tbody{
+                    flex: 1;
+
+                    tr{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        border-bottom: 1px solid lightgray;
+
+                        td{
+                            padding: 10px;
+                            font-size: 13px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+
+            button{
+                margin-top: 20px;
+                padding: 10px;
+                background-color: red;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: rgba(226, 8, 8, 0.877);
+                }
+            }
+        }
+    }
 }
