@@ -6,6 +6,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import LocalGasStationIcon from '@mui/icons-material/LocalGasStation';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import PhoneIcon from '@mui/icons-material/Phone';
+import { Link } from 'react-router-dom';
 
 const WeeksCar = () => {
     // console.log(weeksCars)
@@ -16,10 +17,12 @@ const WeeksCar = () => {
                 <div className="highlight"></div>
                 <h2>cars of the week</h2>
             </div>
+            <Link to="/cars-for-sale" style={{textDecoration: 'none'}}>
             <div className="right">
                 <img src={require('../../images/car-button.png')} alt="" />
                 <button>view all cars</button>
             </div>
+            </Link>
         </div>
         <div className="bottom">
             {weeksCars.map(car => (
