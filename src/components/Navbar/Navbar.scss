@@ -127,3 +127,36 @@
         }
     }
 }
+
+@media screen and (max-width: 480px){
+    .navbar{
+        width: 100vw;
+
+        .top{
+            margin: 0px 5px;
+            display: flex;
+            justify-content: space-between;
+            // gap: 5px;
+
+            .left{
+                img{
+                    height: 70px;
+                    width: 100px;
+                }
+            }
+
+            .center{
+                display: none;
+            }
+
+            .right{
+                display: flex;
+                .phone{}
+                .social{
+                    display: none;
+                }
+            }
+        }
+        .bottom{}
+    }
+}

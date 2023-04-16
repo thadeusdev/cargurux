@@ -145,3 +145,80 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width:480px){
+    .footer{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    
+        .top{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 10px;
+            height: auto;
+    
+            .subscribe{
+    
+                h2{
+                    font-size: 15px;
+                }
+    
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+    
+                    input{
+                        width: 80%;
+                    }
+    
+                    button{
+                    }
+                }
+            }
+    
+            .links{
+
+                h2{
+                    font-size: 12px;
+                }
+    
+                .link{
+                    font-size: 10px;
+                }
+            }
+    
+            .support{
+    
+                h2{
+                    font-size: 12px;
+                }
+    
+                .link{
+                    font-size: 10px;
+                }
+            }
+    
+            .about{
+    
+                h2{
+                    font-size: 12px;
+                }
+    
+                p{
+                    font-size: 10px;
+                }
+    
+                span{
+                    font-size: 10px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    
+        .bottom{
+        }
+    }
+}

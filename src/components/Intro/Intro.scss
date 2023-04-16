@@ -43,3 +43,19 @@
         }
     }
 }
+
+@media screen and (max-width: 480px){
+    .intro{
+        display: none;
+        .left{
+            h3{}
+            h2{}
+            p{}
+            .more{
+                span{}
+            }
+        }
+
+        .right{}
+    }
+}

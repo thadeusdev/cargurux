@@ -20,3 +20,21 @@
         text-transform: capitalize;
     }
 }
+
+@media screen and (max-width: 480px){
+    .homeCard{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+
+        img{
+            height: 80px;
+        }
+        
+        span{
+            font-size: 15px;
+        }
+    }
+}
