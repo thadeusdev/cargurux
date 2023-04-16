@@ -23,7 +23,7 @@ const CarForSale = () => {
       </div>
       <div className="bottom">
       {weeksCars.map(car => (
-        <div className='bottom-item'>
+        <div className='bottom-item' key={car.id}>
           <div className="image-wrapper">
             <img src={car.img} alt="" />
           </div>           

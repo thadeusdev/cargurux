@@ -9,7 +9,7 @@ const Slide = () => {
     <div className='slide' >
         <Slider dots autoplay={true} autoplaySpeed={3000} duration={700}>
           {homeCards.map((card) => (
-            <HomeCard item={card}/>
+            <HomeCard item={card} key={card.id}/>
           ))}
         </Slider>
     </div>

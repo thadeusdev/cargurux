@@ -12,9 +12,9 @@ const CarMakeSlide = () => {
             <h2>vehicle by make</h2>
         </div>
         
-        <Slider arrows={0} slidesToShow={7} autoplay={true} autoplaySpeed={3000} duration={700}>
+        <Slider arrows={false} slidesToShow={7} autoplay={true} autoplaySpeed={3000} duration={700}>
             {CarMakes.map(carMake => (
-                <CarMake item={carMake} />
+                <CarMake item={carMake} key={carMake.id} />
             ))}
         </Slider>
     </div>
