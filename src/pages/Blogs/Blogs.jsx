@@ -1,5 +1,6 @@
 import React from 'react'
 import './Blogs.scss'
+import { Link } from 'react-router-dom'
 
 const Blogs = () => {
   return (
@@ -12,7 +13,9 @@ const Blogs = () => {
         <span>
           We make it easier for you to buy the car of your dream with low interest rates, flexible payment terms and fast approval times.
         </span>
+        <Link to='/cars-for-sale'>
         <button>find your dream car</button>
+        </Link>
       </div>
       <div className="right">
         <img src={require('../../images/car_financing_hero_image.webp')} alt="" />
