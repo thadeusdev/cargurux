@@ -154,3 +154,11 @@
         }
     }
 }
+
+@media only screen and (max-width:1024px) {
+    .insurance{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}

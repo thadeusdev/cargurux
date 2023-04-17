@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 10px;
     margin: 10px 50px;
+
     .top{}
     .bottom{
         display: flex;
@@ -220,6 +221,23 @@
                     margin: 0px 10px;
                 }
             }
+        }
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .carTracking{
+        margin: 10px;
+
+        .top{}
+
+        .bottom{
+            display: flex;
+            flex-direction: column;
+
+            .left{}
+
+            .right{}
         }
     }
 }
