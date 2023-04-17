@@ -15,7 +15,4 @@
 ![Edit](/src/images/vehicle-insurance.png "Optional title")
 
 ## Mobile View
-![Edit](/src/images/mobile-view-home.jpg "Optional title")
-
-## Mobile Menu
-![Edit](/src/images/mobile-view-menu.jpg "Optional title")
+![Edit](/src/images/mobile-responsive.png "Optional title")
