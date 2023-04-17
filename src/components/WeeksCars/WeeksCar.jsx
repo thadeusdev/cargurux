@@ -33,11 +33,11 @@ const WeeksCar = () => {
                     <span className="desc" style={{fontWeight: 600, padding: '5px'}}>{car.desc}</span>
                     <span className="desc" style={{color: 'red', fontWeight: 600, marginBottom: '10px', padding: '5px'}}>Ksh {car.price}</span>
                     <div className="mileage">
-                        <SpeedIcon/>
+                        <SpeedIcon className='icon'/>
                         <span className="mileage-item">{car.engine} Cc</span>
-                        <SettingsIcon/> 
+                        <SettingsIcon className='icon'/> 
                         <span className="mileage-item">{car.transmission}</span>
-                        <LocalGasStationIcon/>
+                        <LocalGasStationIcon className='icon'/>
                         <span className="mileage-item">{car.fuel}</span>
                     </div>
                     <div className="order">

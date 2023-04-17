@@ -226,3 +226,40 @@
         }
     }
 }
+
+// small screen
+@media only screen and (max-width: 1024px){
+    .weeksCar{
+        margin: 10px;
+
+        .top{}
+
+        .bottom{
+
+            .bottom-item{
+                width: 250px;
+
+                .image-wrapper{
+
+                    img{
+                        height: 150px;
+                    }
+                }
+
+                .desc{
+                    font-size: 13px;
+                }
+
+                .mileage{
+                    display: flex;
+                    align-items: center;
+                    font-size: 13px;
+
+                    .icon{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
