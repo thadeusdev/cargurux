@@ -172,3 +172,30 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px){
+    .carTracking{
+        margin: 10px 10px;
+        overflow-x: hidden;
+
+        .top{
+            height: 170px;
+        }
+
+        .bottom{
+            display: flex;
+            flex-direction: column;
+
+            .left{
+
+                .introduction{
+                    .header{
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .right{}
+        }
+    }
+}

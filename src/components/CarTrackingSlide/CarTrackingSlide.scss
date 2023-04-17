@@ -13,3 +13,14 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px){
+    .CarTrackingSlide{
+        margin: 10px 10px;
+        overflow-x: hidden;
+
+        .image-wrapper{
+            height: 150px;
+        }
+    }
+}
