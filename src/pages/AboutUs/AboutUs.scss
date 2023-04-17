@@ -1,0 +1,64 @@
+.about{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    .left{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+    .right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+
+        .top{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .highlight{
+                height: 40px;
+                width: 4px;
+                background-color: red;
+            }
+    
+            h2{
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+
+        .bottom{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .bottom-item{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .icon{
+                    color: green;
+                }
+
+                span{
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
