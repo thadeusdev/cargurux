@@ -32,18 +32,12 @@
                 gap: 40px;
 
                 input{
-                    height: 35px;
                     border: none;
                     border-radius: 5px;
-
-                    &:focus{
-                        padding: 2px;
-                        font-size: 14px;
-                    }
+                    padding: 10px;
                 }
 
                 button{
-                    height: 35px;
                     width: 100px;
                     background-color: rgba(255, 0, 0, 0.664);
                     border: none;
@@ -51,6 +45,7 @@
                     font-weight: 500;
                     text-transform: capitalize;
                     border-radius: 5px;
+                    padding: 10px;
 
                     &:hover{
                         background-color: red;
