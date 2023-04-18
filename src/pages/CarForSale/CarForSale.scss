@@ -33,17 +33,19 @@
 
             .image-wrapper{
                 position: relative;
+                overflow: hidden;
+                border-radius: 10px;
                 transition: transform 0.2s ease-in-out;
-
-                &:hover{
-                    transform: scale(1.1);
-                    z-index: 1;
-                }
 
                 img{
                     height: 150px;
                     width: 100%;
                     border-radius: 10px;
+                    transition: transform 0.5s;
+
+                    &:hover{
+                        transform: scale(1.2);
+                    }
                 }
             }
 
