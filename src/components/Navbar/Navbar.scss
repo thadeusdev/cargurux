@@ -179,7 +179,26 @@
                 display: flex;
                 .phone{}
                 .social{
-                    display: none;
+                    width: 50px;
+                    display: flex;
+                    align-items: flex-start;
+                    .link{
+                        .facebook{
+                            display: none;
+                        }
+                        .twitter{
+                            display: none;
+                        }
+                        .instagram{
+                            display: none;
+                        }
+                        .linkedin{
+                            display: none;
+                        }
+                        .account{
+                            left: 0;
+                        }
+                    }
                 }
             }
         }

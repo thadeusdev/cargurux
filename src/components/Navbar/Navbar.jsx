@@ -33,6 +33,9 @@ const Navbar = () => {
             <span>+254759272383</span>
           </div>
           <div className="social">
+            <Link className='link' to='/admin'>
+              <AccountCircleIcon className='account' /> 
+            </Link> 
             <Link className='link' to='/'>
               <FacebookIcon className='facebook' /> 
             </Link> 
@@ -44,9 +47,6 @@ const Navbar = () => {
             </Link>
             <Link className='link' to='/'>
               <LinkedInIcon className='linkedin' />
-            </Link> 
-            <Link className='link' to='/admin'>
-              <AccountCircleIcon className='account' /> 
             </Link>      
           </div>
         </div>
