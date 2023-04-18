@@ -8,9 +8,12 @@ import LocalGasStationIcon from '@mui/icons-material/LocalGasStation';
 const CarForSaleAdmin = () => {
   return (
     <div className='carForSaleAdmin'>
-      <div className="header">
-        <div className="highlight"></div>
-        <h2>cars for sale</h2>
+      <div className="top">        
+        <div className="header">
+          <div className="highlight"></div>
+          <h2>cars for sale</h2>
+        </div>
+        <button>add car</button>
       </div>
       <div className="item">
         {weeksCars.map(car => (
