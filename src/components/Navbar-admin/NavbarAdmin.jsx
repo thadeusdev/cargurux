@@ -66,8 +66,8 @@ const NavbarAdmin = ({children}) => {
                </div>
                {
                    menuItem.map((item, index)=>(
-                    <div>
-                       <NavLink to={item.path} key={index} className="link" activeclassname="active">
+                    <div  key={index}>
+                       <NavLink to={item.path} className="link" activeclassname="active">
                            <div className="icon">{item.icon}</div>
                            <div style={{display: isOpen ? "block" : "none"}} className="link_text">{item.name}</div>
                        </NavLink>

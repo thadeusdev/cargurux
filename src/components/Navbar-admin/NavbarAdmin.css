@@ -17,6 +17,7 @@ main{
     width: 200px;
     transition: all 0.5s;
     position: sticky;
+    top: 0;
 }
 .top_section{
     display: flex;
